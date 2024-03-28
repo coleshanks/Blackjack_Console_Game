@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/coleshanks/Documents/GitHub/Blackjack_Console_Game/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001A48, symSize: 0x14C }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001A48, symSize: 0x14C }
+  - { offsetInCU: 0x70, offset: 0x70, size: 0x8, addend: 0x0, symName: _clean, symObjAddr: 0x14C, symBinAddr: 0x100001B94, symSize: 0x4C }
+  - { offsetInCU: 0x94, offset: 0x94, size: 0x8, addend: 0x0, symName: _GetChoice, symObjAddr: 0x198, symBinAddr: 0x100001BE0, symSize: 0x68 }
+  - { offsetInCU: 0xBC, offset: 0xBC, size: 0x8, addend: 0x0, symName: _title, symObjAddr: 0x200, symBinAddr: 0x100001C48, symSize: 0x434 }
+  - { offsetInCU: 0xD1, offset: 0xD1, size: 0x8, addend: 0x0, symName: _rules, symObjAddr: 0x634, symBinAddr: 0x10000207C, symSize: 0x164 }
+  - { offsetInCU: 0xE6, offset: 0xE6, size: 0x8, addend: 0x0, symName: _game, symObjAddr: 0x798, symBinAddr: 0x1000021E0, symSize: 0xCD0 }
+  - { offsetInCU: 0x27D, offset: 0x27D, size: 0x8, addend: 0x0, symName: _InitializeDeck, symObjAddr: 0x1488, symBinAddr: 0x100002ED0, symSize: 0x50 }
+  - { offsetInCU: 0x2B2, offset: 0x2B2, size: 0x8, addend: 0x0, symName: _ShuffleDeck, symObjAddr: 0x14D8, symBinAddr: 0x100002F20, symSize: 0x98 }
+  - { offsetInCU: 0x305, offset: 0x305, size: 0x8, addend: 0x0, symName: _ScoreCard, symObjAddr: 0x1570, symBinAddr: 0x100002FB8, symSize: 0xFC }
+  - { offsetInCU: 0x32F, offset: 0x32F, size: 0x8, addend: 0x0, symName: _DisplayCard, symObjAddr: 0x16A0, symBinAddr: 0x1000030E8, symSize: 0x1F4 }
+  - { offsetInCU: 0x373, offset: 0x373, size: 0x8, addend: 0x0, symName: _randomInRange, symObjAddr: 0x18D8, symBinAddr: 0x100003320, symSize: 0x48 }
+...
