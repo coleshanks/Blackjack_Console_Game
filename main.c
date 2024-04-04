@@ -258,13 +258,13 @@ void rules()                    /* Displays the rules */
 
     printf("\t\t\t  -------------\n");
 
-    printf("\t%c Press y for Yes\t\t", 03);
+    printf("\t%c Press y for Yes\t", SYM);
 
-    printf("%c Press h to Hit\n", 03);
+    printf("%c Press h to Hit\n", SYM);
 
-    printf("\t%c Press n for No\t\t", 03);
+    printf("\t%c Press n for No\t", SYM);
 
-    printf("%c Press s to Stay\n\n\n\n", 03);
+    printf("%c Press s to Stay\n\n\n\n", SYM);
 
 }
 
