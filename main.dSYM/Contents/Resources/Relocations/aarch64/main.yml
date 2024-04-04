@@ -2,16 +2,16 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/coleshanks/Documents/GitHub/Blackjack_Console_Game/main'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001A1C, symSize: 0x14C }
-  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001A1C, symSize: 0x14C }
-  - { offsetInCU: 0x70, offset: 0x70, size: 0x8, addend: 0x0, symName: _clean, symObjAddr: 0x14C, symBinAddr: 0x100001B68, symSize: 0x4C }
-  - { offsetInCU: 0x94, offset: 0x94, size: 0x8, addend: 0x0, symName: _GetChoice, symObjAddr: 0x198, symBinAddr: 0x100001BB4, symSize: 0x80 }
-  - { offsetInCU: 0xBC, offset: 0xBC, size: 0x8, addend: 0x0, symName: _title, symObjAddr: 0x218, symBinAddr: 0x100001C34, symSize: 0x434 }
-  - { offsetInCU: 0xD1, offset: 0xD1, size: 0x8, addend: 0x0, symName: _rules, symObjAddr: 0x64C, symBinAddr: 0x100002068, symSize: 0x164 }
-  - { offsetInCU: 0xE6, offset: 0xE6, size: 0x8, addend: 0x0, symName: _game, symObjAddr: 0x7B0, symBinAddr: 0x1000021CC, symSize: 0xCD0 }
-  - { offsetInCU: 0x27D, offset: 0x27D, size: 0x8, addend: 0x0, symName: _InitializeDeck, symObjAddr: 0x14A0, symBinAddr: 0x100002EBC, symSize: 0x50 }
-  - { offsetInCU: 0x2B2, offset: 0x2B2, size: 0x8, addend: 0x0, symName: _ShuffleDeck, symObjAddr: 0x14F0, symBinAddr: 0x100002F0C, symSize: 0x98 }
-  - { offsetInCU: 0x305, offset: 0x305, size: 0x8, addend: 0x0, symName: _ScoreCard, symObjAddr: 0x1588, symBinAddr: 0x100002FA4, symSize: 0xFC }
-  - { offsetInCU: 0x32F, offset: 0x32F, size: 0x8, addend: 0x0, symName: _DisplayCard, symObjAddr: 0x16B8, symBinAddr: 0x1000030D4, symSize: 0x1F4 }
-  - { offsetInCU: 0x373, offset: 0x373, size: 0x8, addend: 0x0, symName: _randomInRange, symObjAddr: 0x18F0, symBinAddr: 0x10000330C, symSize: 0x48 }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000019F8, symSize: 0x14C }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000019F8, symSize: 0x14C }
+  - { offsetInCU: 0x70, offset: 0x70, size: 0x8, addend: 0x0, symName: _clean, symObjAddr: 0x14C, symBinAddr: 0x100001B44, symSize: 0x4C }
+  - { offsetInCU: 0x94, offset: 0x94, size: 0x8, addend: 0x0, symName: _GetChoice, symObjAddr: 0x198, symBinAddr: 0x100001B90, symSize: 0xD8 }
+  - { offsetInCU: 0xE6, offset: 0xE6, size: 0x8, addend: 0x0, symName: _title, symObjAddr: 0x270, symBinAddr: 0x100001C68, symSize: 0x3F4 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _rules, symObjAddr: 0x664, symBinAddr: 0x10000205C, symSize: 0x164 }
+  - { offsetInCU: 0x110, offset: 0x110, size: 0x8, addend: 0x0, symName: _game, symObjAddr: 0x7C8, symBinAddr: 0x1000021C0, symSize: 0xCD0 }
+  - { offsetInCU: 0x2A7, offset: 0x2A7, size: 0x8, addend: 0x0, symName: _InitializeDeck, symObjAddr: 0x14B8, symBinAddr: 0x100002EB0, symSize: 0x50 }
+  - { offsetInCU: 0x2DC, offset: 0x2DC, size: 0x8, addend: 0x0, symName: _ShuffleDeck, symObjAddr: 0x1508, symBinAddr: 0x100002F00, symSize: 0x98 }
+  - { offsetInCU: 0x32F, offset: 0x32F, size: 0x8, addend: 0x0, symName: _ScoreCard, symObjAddr: 0x15A0, symBinAddr: 0x100002F98, symSize: 0xFC }
+  - { offsetInCU: 0x359, offset: 0x359, size: 0x8, addend: 0x0, symName: _DisplayCard, symObjAddr: 0x16D0, symBinAddr: 0x1000030C8, symSize: 0x1F4 }
+  - { offsetInCU: 0x39D, offset: 0x39D, size: 0x8, addend: 0x0, symName: _randomInRange, symObjAddr: 0x1908, symBinAddr: 0x100003300, symSize: 0x48 }
 ...

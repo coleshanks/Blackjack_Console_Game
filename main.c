@@ -31,6 +31,8 @@
 
 #define CARDS 51
 
+#define SYM 42
+
 
 
 void game ();
@@ -170,9 +172,6 @@ char GetChoice()               /* Returns the choice the user has entered */
     printf("\t\t-----------------------\t\tPress 1 to see the\n");
 
     printf("\t\t\t(Y/N)\t\t\trules of the game\n");
-        printf("display this ♠ %c\n", 0xA7); // prints heart
-       // ♠ = U+2660 = "\xE2\x99\xA0"
-
 
     scanf("%c", &choice);
 
@@ -192,35 +191,36 @@ void title ()                  /* Displays the title screen */
 
     printf("=========================================================\n\n");
 
-    printf(" %c%c%c%c    %c         %c%c           %c%c%c%c%c     %c       %c             \n", 05,05,05,05,06,03,03,04,04,04,04,04,05,05);
+    printf(" %c%c%c%c    %c         %c%c           %c%c%c%c%c     %c       %c             \n", SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM);
 
-    printf(" %c   %c   %c        %c  %c         %c          %c     %c                     \n", 05,05,06,03,03,04,05,05);
+    printf(" %c   %c   %c        %c  %c         %c          %c     %c                     \n", SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM);
 
-    printf(" %c   %c   %c       %c    %c       %c           %c   %c                       \n", 05,05,06,03,03,04,05,05);
+    printf(" %c   %c   %c       %c    %c       %c           %c   %c                       \n", SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM);
 
-    printf(" %c%c%c%c    %c      %c%c%c%c%c%c%c%c      %c           %c %c                 \n", 05,05,05,05,06,03,03,03,03,03,03,03,03,04,05,05);
+    printf(" %c%c%c%c    %c      %c%c%c%c%c%c%c%c      %c           %c %c                 \n", SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM);
 
-    printf(" %c   %c   %c     %c        %c     %c           %c   %c                       \n", 05,05,06,03,03,04,05,05);
+    printf(" %c   %c   %c     %c        %c     %c           %c   %c                       \n", SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM);
 
-    printf(" %c   %c   %c    %c          %c     %c          %c     %c                     \n", 05,05,06,03,03,04,05,05);
+    printf(" %c   %c   %c    %c          %c     %c          %c     %c                     \n", SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM);
 
-    printf(" %c%c%c%c    %c   %c            %c     %c%c%c%c%c     %c       %c             \n", 05,05,05,05,06,03,03,04,04,04,04,04,05,05);
+    printf(" %c%c%c%c    %c   %c            %c     %c%c%c%c%c     %c       %c             \n", SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM);
 
     printf("\n");
 
-    printf("   %c%c%c%c%c         %c%c            %c%c%c%c%c     %c       %c              \n", 06,06,06,06,06,03,03,04,04,04,04,04,05,05);
+    printf("   %c%c%c%c%c         %c%c            %c%c%c%c%c     %c       %c              \n", SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM);
 
-    printf("     %c          %c  %c          %c          %c     %c                        \n", 06,03,03,04,05,05);
 
-    printf("     %c         %c    %c        %c           %c   %c                          \n", 06,03,03,04,05,05);
+    printf("     %c          %c  %c          %c          %c     %c                        \n", SYM,SYM,SYM,SYM,SYM,SYM);
 
-    printf("     %c        %c%c%c%c%c%c%c%c       %c           %c %c                      \n", 06,03,03,03,03,03,03,03,03,04,05,05);
+    printf("     %c         %c    %c        %c           %c   %c                          \n", SYM,SYM,SYM,SYM,SYM,SYM);
 
-    printf("     %c       %c        %c      %c           %c   %c                          \n", 06,03,03,04,05,05);
+    printf("     %c        %c%c%c%c%c%c%c%c       %c           %c %c                      \n", SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM);
 
-    printf("   %c %c      %c          %c      %c          %c     %c                       \n", 06,06,03,03,04,05,05);
+    printf("     %c       %c        %c      %c           %c   %c                          \n", SYM,SYM,SYM,SYM,SYM,SYM);
 
-    printf("    %c%c     %c            %c      %c%c%c%c%c     %c       %c                 \n\n", 06,06,03,03,04,04,04,04,04,05,05);
+    printf("   %c %c      %c          %c      %c          %c     %c                       \n", SYM,SYM,SYM,SYM,SYM,SYM,SYM);
+
+    printf("    %c%c     %c            %c      %c%c%c%c%c     %c       %c                 \n\n", SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM,SYM);
 
     printf("=========================================================\n\n\n");
 
