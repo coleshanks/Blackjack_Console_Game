@@ -170,9 +170,8 @@ char GetChoice()               /* Returns the choice the user has entered */
     printf("\t\t-----------------------\t\tPress 1 to see the\n");
 
     printf("\t\t\t(Y/N)\t\t\trules of the game\n");
-        printf("display this please ♠ %c\n", 0xD7); // prints heart 
+        printf("display this ♠ %c\n", 0xA7); // prints heart
        // ♠ = U+2660 = "\xE2\x99\xA0"
-
 
 
     scanf("%c", &choice);
